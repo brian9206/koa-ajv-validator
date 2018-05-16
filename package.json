@@ -1,0 +1,23 @@
+{
+  "name": "koa-ajv-validator",
+  "version": "1.0.0",
+  "description": "Simple Koa ajv JSON schema validator middleware",
+  "main": "index.js",
+  "repository": "github:brian9206/koa-ajv-validator",
+  "author": "Brian Choi <brian9206@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "peerDependencies": {
+    "ajv": "^6.5.0",
+    "koa": "^2.5.1",
+    "koa-body": "^2.5.0"
+  },
+  "devDependencies": {
+    "ajv": "^6.5.0",
+    "koa": "^2.5.1",
+    "koa-body": "^2.5.0",
+    "koa-json-error-handler": "^1.0.0"
+  }
+}
